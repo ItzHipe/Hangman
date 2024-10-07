@@ -4,7 +4,7 @@ This is a simple implementation of the classic Hangman game in Python.
 
 ## Project Structure
 
-- `mini_project.py`: The main script containing the game logic.
+- `Hangman_logic`: The main script containing the game logic.
 
 ## How to Play
 
