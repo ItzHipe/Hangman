@@ -24,7 +24,3 @@ To start the game, run the following command in your terminal:
 ```sh
 python mini_project.py
 ```
-
-## License
-
-This project is licensed under the MIT License.
