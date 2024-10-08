@@ -19,7 +19,7 @@ print("   5. \033[0;32mCountries\033[0m")
 print()
 
 while True:
-    category = int(input("Enter the category number: "))
+    category = int(input("\n\033[0;37mEnter the category number: \033[0m"))
     print()
     if category == 1:
       print("You have selected \033[0;33mFruits!\033[0m")
@@ -37,9 +37,9 @@ while True:
       print("You have selected \033[0;32mCountries\033[0m")
       Hangman_logic.game(Categories.get_countries())
     else:
-      print("Invalid category!")
+      print("\033[1;31mInvalid category!!/033[0m")
 
-    repeat = input("Do you want to play again? Y/N: ").lower()
+    repeat = input("\nDo you want to play again? Y/N: ").lower()
     if repeat != 'y':
       break
 print("Thank you for playing!")
