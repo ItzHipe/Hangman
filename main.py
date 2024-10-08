@@ -13,7 +13,7 @@ print("\033[3;37mCategories: \033[0m")
 print()
 print("   1. \033[0;33mFruits\033[0m")
 print("   2. \033[0;31mAnimals\033[0m")
-print("   3. \033[0;30mColors\033[0m")
+print("   3. \033[0;34mColors\033[0m")
 print("   4. \033[0;35mVehicles\033[0m")
 print("   5. \033[0;32mCountries\033[0m")
 print()
@@ -28,7 +28,7 @@ while True:
       print("You have selected \033[0;31mAnimals\033[0m")
       Hangman_logic.game(Categories.get_animals())
     elif category == 3:
-      print("You have selected \033[0;30mColors\033[0m")
+      print("You have selected \033[0;34mColors\033[0m")
       Hangman_logic.game(Categories.get_colors())
     elif category == 4:
       print("You have selected \033[0;35mVehicles\033[0m")
