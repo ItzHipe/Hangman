@@ -2,7 +2,7 @@ import random
 
 def game(data):
     word = random.choice(data)
-    print("Guess the word!")
+    print("\nGuess the word!")
 
     guessed_letters = []
     chances = 10
