@@ -5,10 +5,11 @@ This is a simple implementation of the classic Hangman game in Python.
 ## Project Structure
 
 - `Hangman_logic`: The main script containing the game logic.
+- `Categories`: The lists of words used in the game.
 
 ## How to Play
 
-1. Run the `mini_project.py` script.
+1. Run the `main.py` script.
 2. The game will randomly select a word.
 3. Guess letters one at a time.
 4. You have a limited number of incorrect guesses before the game ends.
@@ -22,5 +23,5 @@ This is a simple implementation of the classic Hangman game in Python.
 To start the game, run the following command in your terminal:
 
 ```sh
-python mini_project.py
+py main.py
 ```
