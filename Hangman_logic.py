@@ -5,7 +5,7 @@ def game(data):
     print("Guess the word!")
 
     guessed_letters = []
-    chances = len(word) + 3
+    chances = 10
     flag = 0
 
     while chances != 0 and flag == 0:
