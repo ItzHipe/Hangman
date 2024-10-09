@@ -10,7 +10,7 @@ This is a simple implementation of the classic Hangman game in Python.
 ## How to Play
 
 1. Run the `main.py` script.
-2. The game will randomly select a word.
+2. The game will randomly select a word from the category provided by the user.
 3. Guess letters one at a time.
 4. You have a limited number of incorrect guesses before the game ends.
 
