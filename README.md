@@ -316,5 +316,3 @@ The code above defines the `game` function, which takes a list of words as input
 
 In this project, we have created a simple implementation of the Hangman game using Python. The game allows the user to choose a category and then play the game by guessing letters. The game continues until the user guesses the word or runs out of chances. The project demonstrates the use of Python modules, functions, and conditional statements to create an interactive game.
 ```
-
-This formatting uses proper headings, code blocks, and lists suitable for GitHub Markdown.
