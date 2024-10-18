@@ -20,7 +20,7 @@ def get_vehicles():
     return ['car', 'truck', 'motorcycle', 'bicycle', 'scooter', 'bus', 'train', 
             'airplane', 'helicopter', 'boat', 'submarine', 'spaceship', 'tractor', 
             'van', 'ambulance', 'firetruck', 'policecar', 'taxi', 'limousine', 
-            'skateboard', 'rollerblades']
+            'skateboard', 'jetski', 'snowmobile']
 
 def get_countries():
     return ['canada', 'brazil', 'argentina', 'france', 'germany', 'italy', 
@@ -28,4 +28,6 @@ def get_countries():
             'austria', 'sweden', 'norway', 'denmark', 'finland', 'iceland', 
             'russia', 'china', 'japan', 'southkorea', 'india', 'australia', 
             'newzealand', 'southafrica', 'egypt', 'nigeria', 'kenya', 'mexico', 
-            'colombia', 'chile', 'peru']
+            'colombia', 'chile', 'peru', 'venezuela', 'cuba', 'jamaica', 'haiti',
+            'dominicanrepublic', 'puertorico', 'costarica', 'panama', 'guatemala',
+            'honduras', 'elsalvador', 'nicaragua', 'costarica', 'belize', 'bahamas']
