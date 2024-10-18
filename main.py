@@ -9,16 +9,16 @@ print('''\033[0;31m
    3. If you guess the word before running out of chances, you win!
    4. If you run out of chances, you lose!
       \033[0m''')
-print("\033[3;37mCategories: \033[0m")
-print()
-print("   1. \033[0;33mFruits\033[0m")
-print("   2. \033[0;31mAnimals\033[0m")
-print("   3. \033[0;34mColors\033[0m")
-print("   4. \033[0;35mVehicles\033[0m")
-print("   5. \033[0;32mCountries\033[0m")
-print()
-
 while True:
+    print("\033[3;37mCategories: \033[0m")
+    print()
+    print("   1. \033[0;33mFruits\033[0m")
+    print("   2. \033[0;31mAnimals\033[0m")
+    print("   3. \033[0;34mColors\033[0m")
+    print("   4. \033[0;35mVehicles\033[0m")
+    print("   5. \033[0;32mCountries\033[0m")
+    print()
+
     category = int(input("\n\033[0;37mEnter the category number: \033[0m"))
     print()
     if category == 1:
