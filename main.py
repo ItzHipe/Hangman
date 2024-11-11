@@ -1,6 +1,7 @@
 import Hangman_logic
 import Categories
 
+
 print("\033[1;37mWelcome to Hangman!\033[0m")
 print("\n\033[3;31mRules: \033[0m")
 print('''\033[0;31m
